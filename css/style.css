@@ -43,7 +43,7 @@ This files contents are outlined below.
 /* Placeholder Mixins */
 /* Selection Color */
 ::selection {
-  background-color: #cfaf6d;
+  background-color: #E37F0A;
   color: #FFFFFF;
 }
 
@@ -174,7 +174,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 
 .navbar.navbar-default.navbar-curve {
-  background: #cfaf6d;
+  background: #EDF1EF;
   border: 0;
   border-radius: 0;
   margin: 0;
@@ -197,7 +197,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   display: inline-block;
 }
 .navbar.navbar-default.navbar-curve #header-min .navbar-nav.curve-nav li a {
-  color: #fff;
+  color: #2A3542;
   font: 400 14px "Roboto", sans-serif;
   text-transform: uppercase;
   background-color: transparent;
@@ -253,16 +253,18 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .navbar.navbar-default.navbar-curve .navbar-right li a {
   color: #fff;
-  font: 400 14px/40px "Roboto", sans-serif;
-  border: 1px solid #fff;
-  width: 150px;
-  padding: 0;
+  font: lighter 14px/40px "Roboto", sans-serif;
+  border: none;
+  /*width: 150px;*/
+	display: inline-block;
+  padding: 0 25px;
+	background: #E37F0A;
   text-align: center;
   text-transform: uppercase;
 }
 .navbar.navbar-default.navbar-curve .navbar-right li a:hover, .navbar.navbar-default.navbar-curve .navbar-right li a:focus {
-  color: #2f2f2f;
-  background: #fff;
+  color: #FFF;
+  background: #E37F0A;
 }
 
 /* Contact-Header-area */
@@ -331,9 +333,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .main-slider-area .camera_wrap.camera_azure_skin .camera_caption.content h2 {
   color: #fff;
-  font: 400 60px/70px "Rajdhani", sans-serif;
-  text-transform: uppercase;
-  background: #cfaf6d;
+  font: lighter 50px/60px "Rajdhani", sans-serif;
+  /*text-transform: uppercase;*/
+  background: #2A3542;
   margin-bottom: 10px;
   display: inline-block;
   padding: 0 20px;

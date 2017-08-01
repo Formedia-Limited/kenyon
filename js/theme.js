@@ -27,13 +27,13 @@
                     main_slider_1.camera({
                         height: CameraHight + 'px',
                         loader: 'bar',
-                        navigation: false,
+                        navigation: true,
                         autoPlay:true,
                         time: 4000,
                         playPause: false,
                         pagination: false,
                         thumbnails: false,
-                        loaderColor: '#cfaf6d',
+                        loaderColor: '#E37F0A',
                         loaderBgColor: 'transparent',
                         barPosition: 'top',
                         autoAdvance: true
