@@ -1,0 +1,279 @@
+.generate-awesome-idea{ 
+    padding: 110px 0 90px 0;
+    .generate-gallery{
+        padding-top: 72px;
+        .gallery-images{
+            position: relative;
+            margin-bottom: 30px;
+            display: block;
+            overflow: hidden;
+            cursor: pointer;
+            .b-line-group{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0; 
+                .b-line{
+                    position: absolute;
+                    top: 0px;
+                    bottom: 0px;
+                    width: 20%;
+                    background-color: rgba(0, 0, 0, .75);
+                    transition: all 0.2s linear;
+                    -moz-transition: all 0.2s linear;
+                    -ms-transition: all 0.2s linear;
+                    -o-transition: all 0.2s linear;
+                    -webkit-transition: all 0.2s linear;
+                }
+                .b-line1{
+                    left: -10%;
+                    width: 30%;
+                    top: 130%;
+                }
+                .b-line2{
+                    left: 20%; 
+                    bottom: 130%; 
+                }
+                .b-line3{
+                    left: 40%; 
+                    top: 130%; 
+                }
+                .b-line4{
+                    left: 60%; 
+                    bottom: 130%; 
+                }
+                .b-line5{
+                    left: 80%; 
+                    width: 30%;
+                    top: 130%; 
+                }
+            } 
+            &:hover{
+                .b-line1{
+                    top: -150px;
+                }
+                .b-line3{
+                    top: -60px;
+                    bottom: -60px;
+                }
+                .b-line5{
+                    top: 0;
+                }
+                .b-line2{
+                    bottom: 0px; 
+                }
+                .b-line4{
+                    bottom: -130px;
+                }
+                .images-hover{
+                    bottom: 0; 
+                }
+            }
+            img{
+                max-width: 100%;
+            } 
+            .images-hover{
+                position: absolute;
+                padding: 30px;
+                width: 100%;
+                z-index: 2;
+                transition: all .4s ease 0s;
+                bottom: -80px; 
+//                &:after{
+//                    content: "+";
+//                    position: absolute;
+//                    color: #fff;
+//                    font: 400 25px $roboto;
+//                    right: 30px;
+//                    border: 1px solid #fff;
+//                    text-align: center;
+//                    bottom: 30px;
+//                    height: 35px;
+//                    width: 35px;
+//                    padding-top: 1px;
+//                }
+                h3{
+                    color: #fff;
+                    font: 500 18px $roboto;
+                }
+                h5{
+                    color: #fff;
+                    padding-top: 8px;
+                    font: 400 15px $roboto;
+                }
+                .light_box{
+                    position: absolute;
+                    color: #fff;
+                    font: 400 25px $roboto;
+                    right: 30px;
+                    border: 1px solid #fff;
+                    text-align: center;
+                    bottom: 30px;
+                    height: 35px;
+                    width: 35px;
+                    padding-top: 1px;
+                }
+            } 
+        }
+//        .gallery-images-last{
+//            padding-bottom: 3px;
+//        }
+    }
+}
+
+/* Portfolio Filter */
+.filters_row{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 47px;
+    #projects_filters{ 
+        float: none;
+        display: inline-block;
+        li{
+            color: $p;
+            font: 400 15px $roboto;
+            cursor: pointer;
+            text-transform: capitalize;
+            padding-right: 40px;
+            display: inline-block; 
+            &:hover, &:focus, &.active {
+                color: $bac;
+            }
+        } 
+    }
+}
+/* End Portfolio Filter */
+
+/* Portfolios */
+.portfolios{
+    #portfolios{
+        .portfolio{
+            padding-bottom: 30px;
+            .inner{
+                .link_to_item{
+                    position: relative; 
+                    display: block;
+                    overflow: hidden; 
+                    .b-line-group{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0; 
+                        .b-line{
+                            position: absolute;
+                            top: 0px;
+                            bottom: 0px;
+                            width: 20%;
+                            background-color: rgba(0, 0, 0, .75);
+                            transition: all 0.2s linear;
+                            -moz-transition: all 0.2s linear;
+                            -ms-transition: all 0.2s linear;
+                            -o-transition: all 0.2s linear;
+                            -webkit-transition: all 0.2s linear;
+                        }
+                        .b-line1{
+                            left: -10%;
+                            width: 30%;
+                            top: 130%;
+                        }
+                        .b-line2{
+                            left: 20%; 
+                            bottom: 130%; 
+                        }
+                        .b-line3{
+                            left: 40%; 
+                            top: 130%; 
+                        }
+                        .b-line4{
+                            left: 60%; 
+                            bottom: 130%; 
+                        }
+                        .b-line5{
+                            left: 80%; 
+                            width: 30%;
+                            top: 130%; 
+                        }
+                    } 
+                    &:hover{
+                        .b-line1{
+                            top: -150px;
+                        }
+                        .b-line3{
+                            top: -60px;
+                            bottom: -60px;
+                        }
+                        .b-line5{
+                            top: 0;
+                        }
+                        .b-line2{
+                            bottom: 0px; 
+                        }
+                        .b-line4{
+                            bottom: -130px;
+                        }
+                        .images-hover{
+                            bottom: 0; 
+                        }
+                    }
+                    img{
+                        max-width: 100%;
+                    }
+                    .images-hover{
+                        position: absolute;
+                        padding: 30px;
+                        width: 100%;
+                        bottom: 0;
+                        z-index: 2;
+                        transition: all .4s ease 0s;
+                        bottom: -80px; 
+                        .light_box{
+                            position: absolute;
+                            color: #fff;
+                            font: 400 25px $roboto;
+                            right: 30px;
+                            border: 1px solid #fff;
+                            text-align: center;
+                            bottom: 30px;
+                            height: 35px;
+                            width: 35px;
+                            padding-top: 1px;
+                        }
+                        h3{
+                            color: #fff;
+                            font: 500 18px $roboto;
+                        }
+                        h5{
+                            color: #fff;
+                            padding-top: 8px;
+                            font: 400 15px $roboto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .Load-More{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 80px;
+        a{
+            background: $bac;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font: 400 15px/50px $roboto;
+            display: inline-block;
+            width: 225px;
+            color: #fff;
+            text-align: center;
+            border: 1px solid $bac;
+            &:hover, &:focus{
+                background-color: transparent;
+                color: $bac;
+            }
+        }
+    }
+}
+/* End Portfolios */
+

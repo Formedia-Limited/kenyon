@@ -1,0 +1,116 @@
+.foter-area{
+    padding-top: 115px;
+    background: #292d2e;
+    .main-footer{
+        padding-bottom: 95px;
+        .footer-logo{
+            a{
+                color: #fffffe;
+                font: 400 25px $roboto;
+            }
+            p{
+                color: #809098;
+                font: 400 15px/28px $roboto;
+                padding-top: 30px;
+            }
+            .socal-icon{
+                padding: 0;
+                padding-top: 28px;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    a{
+                        padding-right: 20px;
+                        i{
+                            font-size: 18px;
+                            color: #fffffe;
+                            &:hover, &:focus{
+                                color: $bac;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .Quick-Links{
+            padding-left: 82px;
+            h4{
+                color: #fffffe;
+                font: 500 18px $roboto;
+                text-transform: uppercase;
+                padding-bottom: 35px;
+            }
+            ul{
+                padding: 0;
+                li{
+                    list-style: none;
+                    position: relative;
+                    padding-left: 20px;
+                    a{
+                        color: #809098;
+                        font: 400 15px $roboto;
+                        padding-bottom: 10px;
+                        display: block; 
+                    }
+                    &:before{
+                        content: "\f105";
+                        color: #809098;
+                        position: absolute;
+                        display: inline-block;
+                        font: normal normal normal 18px/1 FontAwesome;
+                        left: 0;
+                        transform: translateZ(0);
+                        @include transition;
+                    }
+                    &:hover, &:focus {
+                        a{
+                           color: $bac; 
+                        }
+                        &:before{
+                            color: $bac; 
+                            transform: translateX(4px);
+                        }
+                    }
+                }
+            }
+        }
+        .Get-touch{
+            padding-left: 82px;
+            h4{
+                color: #fffffe;
+                font: 500 18px $roboto;
+                text-transform: uppercase;
+                padding-bottom: 35px; 
+            }
+            address{
+                color: #809098;
+                font: 400 15px/28px $roboto;
+                span{
+                    font: 500 15px $roboto;
+                    text-transform: uppercase;
+                    padding-bottom: 23px;
+                    i{
+                        font-size: 18px; 
+                        padding-right: 15px;   
+                    }
+                }
+            }
+        }
+        .Get-touch-2{
+            padding-left: 0;
+            padding-top: 55px;
+        }
+    }
+    .Copyright{
+        color: #7e8e96;
+        font: 400 14px $roboto;
+        text-align: center;
+        padding-bottom: 30px;
+        a{
+            color: $bac;
+            &:hover{
+                color: #7e8e96;
+            }
+        }
+    }
+}

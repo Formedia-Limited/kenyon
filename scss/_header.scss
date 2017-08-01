@@ -1,0 +1,167 @@
+/********** Header Fixt **********/
+.navbar-default.navbar-curve.affix{
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    & + section,& + div,& + .row,& + ul{
+        margin-top: 81px;
+    }
+}
+.navbar-default.navbar-curve.navbar-fixed-top.affix{
+    & + section,& + div,& + .row,& + ul{
+        margin-top: 0px;
+    }
+}
+
+.navbar.navbar-default.navbar-curve{
+    background: $bac;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 9999;
+    .curve-header{ 
+        .navbar-brand{
+            padding:32px 0px 47px 100px;
+            img{
+                max-width: 100%;
+            }
+        }
+    }
+    #header-min{ 
+        .navbar-nav.curve-nav{
+            margin: 0;
+            float: none; 
+            text-align: center;
+            li{
+                float: none;
+                display: inline-block;
+                a{
+                    color: #fff;
+                    font: 400 14px $roboto;
+                    text-transform: uppercase;
+                    background-color: transparent;
+                    padding: 20px;
+                    padding-bottom: 32px;
+                    padding-top: 32px;
+                    &:hover, &:focus{
+                        color: $h1;
+                    }
+                }
+            }
+            .dropdown{
+                .dropdown-menu{
+                    background: $bac;
+                    margin-left: -35px;
+                    padding: 0;
+                    border:0;
+                    @include transition;
+                    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66); 
+                    @media (min-width: 768px){
+                        display: block;
+                        transform: scale(1, 0);
+                        transform-origin: top;
+                    }
+                    li{
+                        display: block;
+                        color: #fff;
+                        a{
+                            padding:0px;
+                            display: block;
+                            border-bottom: 1px solid #fff;
+                            padding-left: 15px;
+                            color: #fff;
+                            line-height: 40px;
+                            &:hover, &:focus{
+                                color: $h1;
+                            }
+                        }
+                        &:last-child{
+                            a{
+                                border: 0;
+                            }
+                        }
+                    }
+                }
+                &:hover{  
+                    @media (min-width: 768px){
+                        .dropdown-menu{
+                            transform: scale(1, 1);
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+    .navbar-right{ 
+        li{
+            padding-top: 19px;
+            float: right;
+            padding-right: 100px;
+            a{
+                color: #fff;
+                font: 400 14px/40px $roboto;
+                border: 1px solid #fff;
+                width: 150px;
+                padding: 0;
+                text-align: center;
+                text-transform: uppercase;
+                &:hover, &:focus{
+                    color: $h1;
+                    background: #fff;
+                }
+            }
+        }
+    }
+}
+
+/* Contact-Header-area */
+.header_top_section{
+    background: $bac; 
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.102);
+    position: relative;
+    border-radius: 0;
+    &:after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.102);
+        width: 100%;
+    }
+    .navbar.navbar-left{  
+        padding: 0;
+        margin: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        li{
+            display: inline-block;
+            list-style: none;
+            color: #fff;
+            font: 400 12px $roboto;
+            padding-right: 20px;
+            i{
+                padding-right: 10px;
+            }
+        }
+    }
+    .navbar-contact.navbar-right{
+        padding-top: 6px;
+        li{
+            display: inline-block;
+            a{
+                color: #fff;
+                background-color: transparent;
+                padding-left: 8px;
+                &:hover, &:focus{
+                    color: $h1;
+                }
+                i{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+/* End Contact-Header-area */

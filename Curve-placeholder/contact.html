@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    
+    <title>Cuve</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <!-- Camera CSS -->
+    <link href="vendors/camera/camera.css" rel="stylesheet">   
+    <!-- Icon CSS-->
+	<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">    
+	<link rel="stylesheet" href="vendors/Stroke-Gap-Icons/strock-gap-min.css">    
+    <!-- Owl-carosel CSS-->
+	<link rel="stylesheet" href="vendors/owl-carosel/owl.carousel.css">    
+    <!-- Swiper CSS-->
+	<link rel="stylesheet" href="vendors/Swiper/swiper.min.css">   
+    <!-- Lightbox CSS-->
+	<link rel="stylesheet" href="vendors/lightbox/css/lightbox.min.css">  
+    
+    <!--Theme Styles CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" /> 
+
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>       
+    <!-- Preloader -->
+    <div class="preloader"></div> 
+     
+    <!--Header-area-->
+    <nav class="navbar navbar-default navbar-curve">
+        <div class="container-fluid p0 custom-container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="col-md-2">
+                <div class="navbar-header curve-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-min" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                </div>
+            </div> 
+            
+            <!-- Collect the nav links,toggling -->
+            <div class="col-md-8">
+                <div class="collapse navbar-collapse" id="header-min">
+                    <ul class="nav navbar-nav curve-nav">
+                        <li class="dropdown">
+                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">Home</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="index.html">Home-1</a></li>
+                                <li><a href="index-2.html">Home-2</a></li>
+                                <li><a href="index-3.html">Home-3</a></li> 
+                            </ul>
+                        </li> 
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="service.html">Service</a></li>
+                        <li><a href="about.html">About</a></li>  
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Blog</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blog-single.html">Blog Single</a></li> 
+                            </ul>
+                        </li> 
+                        <li><a href="contact.html">contact</a></li> 
+                    </ul> 
+                </div><!-- /.navbar-collapse -->
+            </div>
+            <div class="col-md-2">
+                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Get In Touch</a></li> 
+                </ul>
+            </div>
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--End Header-area-->
+    
+    <!--Banner-area--> 
+    <section class="banner-area">
+        <h2>Contact Us</h2>
+    </section>
+    <!--End Banner-area-->
+    
+    <!--Get in touch-->
+    <section class="Get_in_touch row">
+        <div class="container">
+            <div class="row contact_from_area">
+               <h2>Get in touch</h2>
+                <div class="col-md-8 col-sm-8 row contact_area_content"> 
+                    <form class="contact-from" action="contact_process.php" method="post" id="contactForm">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="name" placeholder="Name*">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" id="email" placeholder="Email*">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="phone" placeholder="Phone*">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="subject" placeholder="Website*">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="send-bottun">Send Message</button>
+                    </form> 
+                    <div id="success">
+                        <p>Your text message sent successfully!</p>
+                    </div>
+                    <div id="error">
+                        <p>Sorry! Message not sent. Something went wrong!!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-md-4 contact-address">
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">phone</h4>
+                            <h5>+880 174 728 6666</h5>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-envelope" aria-hidden="true"></i> 
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">email</h4>
+                            <h5>supportdesk@curve.com</h5>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> 
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">address</h4>
+                            <address>
+                                10 Brandt Street, Steinbach, <br> Manitoba, R5G 1Y2, <br>Canada
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Get in touch-->   
+  
+     
+    <!--Map area-->   
+    <section class="map-area"> 
+       <div class="contact_map">
+            <!-- Map -->
+            <div id="map"></div>
+       </div>
+        <div class="Construction-House">
+            <h4>Curve Construction House</h4>
+            <h6>245 Rongon Srtreet, Syosset, <br>NY 11545, USA</h6>
+        </div>
+    </section>
+    <!--End Map area-->
+    
+    <!--Subscribe to us-->  
+    <section class="Subscribe_us row">
+        <div class="container">
+           <div class="taittle-subscriber">
+               <h2>Subscribe to us</h2>
+               <p>Over 10 million people already have subscribed our newsletter.</p>
+           </div> 
+            <form class="subscriber-from">
+                <input type="text" placeholder="Enter Email Address" >
+                <input class="submit_button" type="submit" value="Subscribe Us" >
+            </form> 
+        </div>
+    </section>
+    <!--End Subscribe to us-->  
+    
+    <!--Footer area-->  
+    <footer class="foter-area">
+        <div class="container">
+            <div class="row main-footer">
+                <div class="col-md-4 col-sm-6 footer-logo">
+                    <a href="index.html">Curve</a>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <ul class="socal-icon">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 Quick-Links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Construction</a></li>
+                        <li><a href="#">Manufacturer</a></li>
+                        <li><a href="#">Home Renovation</a></li>
+                        <li><a href="#">Hardwood Flooring</a></li>
+                        <li><a href="#">Hardwood Flooring</a></li>
+                        <li><a href="#">Repairing Of Roof</a></li> 
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-6 Get-touch">
+                    <h4>Get in touch</h4>
+                    <address>
+                        <span><i class="fa fa-map-marker"></i>United Kingdom</span> <br>
+                        Curve House #01 <br>
+                        Roboto street <br>
+                        Cupertino, CA 1404 <br>
+                        (204) 997-2020
+                    </address>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-6 Get-touch Get-touch-2"> 
+                    <address>
+                        <span><i class="fa fa-map-marker"></i>Australia</span> <br>
+                        Curve House #02 <br>
+                        Rajdhani street <br>
+                        Cupertino, CA 1206 <br>
+                        (204) 799-2278
+                    </address>
+                </div>
+            </div>
+            <div class="Copyright">
+                &copy; Copyright 2016 <a href="#">Cure</a>. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <!--End Footer area-->  
+    
+    <!-- jQuery JS -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>  
+    <!-- Camera JS -->
+    <script src="vendors/camera/camera.min.js"></script>  
+    <script src="vendors/camera/jquery.easing.1.3.js"></script>  
+    <script src="vendors/camera/jquery.mobile.customized.min.js"></script>  
+    <!-- Counter JS -->
+    <script src="vendors/counter/jquery.counterup.min.js"></script>
+    <script src="vendors/counter/waypoints.min.js"></script>
+    <!-- Counter JS -->
+    <script src="vendors/owl-carosel/owl.carousel.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="vendors/Swiper/swiper.min.js"></script> 
+    <!-- Map JS -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="vendors/map/gmaps.min.js"></script>
+    <script type="text/javascript" src="vendors/map/map.js"></script>
+    <!-- Contact From JS -->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <!-- Wow JS -->
+    <script src="vendors/wow-js/wow.min.js"></script>
+    <!-- Lightbox JS -->
+    <script src="vendors/lightbox/js/lightbox.min.js"></script>
+    
+    <!-- Theme JS -->
+    <script src="js/theme.js"></script>
+</body>
+</html>  

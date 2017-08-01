@@ -1,0 +1,114 @@
+.conostruction-area{
+    display: block;
+    overflow: hidden; 
+    padding: 110px 0 120px 0;
+    .Services-conostruction{
+        h2{
+            color: $h1;
+            font: 600 35px $rajdhani;
+            max-width: 375px;
+            margin: 0 auto;
+            text-align: center;
+            span{
+                color: $bac;
+                text-transform: uppercase;
+            }
+        }
+        p{
+            color: $p;
+            font: 400 15px/28px $roboto;
+            max-width: 750px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 28px;
+        }
+        .buttone-more{
+            text-align: center;
+            padding-top: 40px;
+             a{
+                color: $h1;
+                font: 400 15px/40px $roboto;
+                text-transform: uppercase;
+                text-align: center;
+                border: 1px solid $h1;
+                display: inline-block;
+                width: 180px;
+                margin-right: 8px;
+                letter-spacing: 2px;
+                &:hover, &:focus{
+                    color: #fff;
+                    background: $bac;
+                    border: 1px solid $bac;
+                }
+            }
+        }
+    }
+}
+
+/* Trendy cnstruction-area */
+.trendy-cnstruction-area{
+    background: #ebf2f5;
+    padding: 110px 0 90px 0;
+    .cnstruction{
+        padding-top: 70px;
+        .media{
+            padding-bottom: 30px;
+            .media-left{
+               padding-right: 30px;
+            }
+            .media-body{
+                .media-heading{
+                    color: $h1;
+                    font: 500 18px $roboto;
+                    text-transform: uppercase;
+                    padding-top: 20px;
+                    padding-bottom: 12px;
+                }
+                p{
+                    color: $p;
+                    padding-top: 10px;
+                    font: 400 15px/28px $roboto;
+                }
+                a{
+                    color: $h1;
+                    font: 500 15px/25px $roboto;
+                    border-bottom: 1px solid $h1;
+                    display: inline-block;
+                    margin-top: 17px;
+                   &:hover, &:focus, &.active{
+                        color: $bac; 
+                        border-bottom: 1px solid $bac;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* conostruction-area-2 */
+.conostruction-area-2{
+    background-image: url("../img/conustracution-bg.jpg"); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/* Trendy cnstruction-area-2 */
+.trendy-cnstruction-area-2{
+    background: #fff;
+    .cnstruction{
+        .media{
+            .media-body{
+                a{
+                    color: $p;
+                    border-bottom: 1px solid $p;
+                }
+            }
+        }
+    } 
+}
+
+/* conostruction-area-about */
+.conostruction-area-about{background: #ebf2f5;}

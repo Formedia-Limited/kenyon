@@ -1,0 +1,82 @@
+.innovative-ideas{
+    padding: 120px 0 70px 0;
+    .innovative-row{
+        .innovative{
+            padding: 30px;
+            position: relative;
+            &:before{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                border-top: 1px solid #d5dde0;
+                width: 48px;
+            }
+            &:after{
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                border-left: 1px solid #d5dde0;
+                height: 48px;
+            }
+            h4{
+                font: 500 18px $roboto;
+                color: $h1;
+                text-transform: uppercase;
+               i{
+                    color: $h1;
+                    font-size: 36px;
+                    padding-right: 20px;
+                }
+            }
+            p{
+                color: $p;
+                font: 400 15px/26px $roboto;
+                padding-top: 30px;
+                position: relative;
+                 &:after{
+                    content:"\f0eb";
+                    position: absolute;
+                    right: 20px;
+                    bottom: -12px;
+                    font: normal normal normal 110px/1 FontAwesome;
+                    color: #ebf2f5;
+                    z-index: -1;
+                }
+            }
+            .border{
+                border-right: 1px solid #d5dde0;
+                height: 48px;
+                width: 48px;
+                display: block;
+                position: relative;
+                right: 0;
+                float: right;
+                top: -20px;
+                &:after{
+                    content:"";
+                    position: absolute;
+                    border-bottom: 1px solid #d5dde0;
+                    bottom: 0;
+                    right: 0;
+                    width: 48px;
+                }
+            }
+        }
+        .Technologies{
+            p{ 
+                 &:after{
+                    content:"\f0ad"; 
+                }
+            }
+        }
+        .Operation{
+            p{ 
+                 &:after{
+                    content:"\f0d0"; 
+                }
+            }
+        }
+    }
+} 

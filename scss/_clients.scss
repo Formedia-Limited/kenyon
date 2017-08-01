@@ -1,0 +1,160 @@
+.clients-say-area{
+    padding: 110px 0 120px 0;
+    background: #ebf2f5;
+    .happy-clients{
+        padding-top: 72px;
+        .clients-carousel{
+            .item{
+                position: relative;
+                padding-bottom: 20px;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    border-top: 20px solid #fff;
+                    border-right: 20px solid transparent;
+                    right: 30px;
+                }
+                .media{
+                    background: #fff;
+                    padding: 30px;
+                    .media-left{
+                        width: 140px;
+                        height: 140px;
+                        display: block;
+                        padding: 0;
+                        float: left;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .media-body{
+                        padding-left: 30px;
+                        p{
+                            color: $p;
+                            font: italic 400 15px/28px $roboto;
+                            position: relative;
+                            z-index: 5;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                            &:before{
+                                content: "";
+                                position: absolute;
+                                background: url(../img/koma.png) no-repeat;
+                                background-size: cover; 
+                                width: 60px;
+                                height: 50px;
+                                left: -10px;
+                                top: 0;
+                                z-index: -1;
+                            }
+                        }
+                        a{
+                            color: $h1;
+                            font: 700 15px $roboto;
+                            text-transform: uppercase;
+                            display: inline-block;
+                            &:hover{
+                                color: $bac;
+                            }
+                        }
+                        .taittle{
+                            color: $p;
+                            font: 400 15px $roboto; 
+                            padding-left: 20px;
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Client logo area */
+.client-logo-area{
+    padding: 120px 0 120px 0;
+    .client-logo-one{ 
+        .client-logo{
+            border-right: 1px solid rgb(227, 236, 238);
+            border-bottom: 1px solid rgb(227, 236, 238);
+            text-align: center;
+            height: 140px;
+            padding-top: 53px;
+            a{
+                @include transition;
+                img{
+                    max-width: 100%;
+                }
+            }
+            .hover{
+                display: none;
+                @include transition;
+            }
+            &:nth-child(n+5){
+                border-bottom: 0;
+            }
+            &:nth-child(4), &:nth-child(8){
+                border-right: 0;
+            }
+            &:hover, &:focus{
+                a{
+                    display: none;
+                }
+                .hover{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+/* End Client logo area */
+
+/* What our clients say three */
+.clients-say-area-three{
+    background: #ebf2f5;
+    padding: 120px 0 90px 0;
+    .jhon-cooper-client{
+        padding-top: 73px;
+        .client-1{
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 30px;
+            img{
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+            }
+            a{
+                color: $bac;
+                display: block;
+                padding-top: 28px;
+                font: 400 15px $roboto;
+                text-transform: uppercase;
+            }
+            h5{
+                color: $p;
+                font: 400 15px $roboto;
+                padding-top: 10px;
+                padding-bottom: 40px;
+            }
+            p{
+                font: 400 15px/28px $roboto;
+                color: $p;
+                padding-left: 30px;
+                position: relative;
+                z-index: 2;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    background: url(../img/koma-2.png) no-repeat;
+                    left: 15px;
+                    top: -20px;
+                    width: 60px;
+                    height: 50px;
+                    z-index: -1;
+                }
+            }
+        }
+    }
+}
+/* End What our clients say three */

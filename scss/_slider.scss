@@ -1,0 +1,72 @@
+.main-slider-area{
+    .camera_wrap.camera_azure_skin{
+        .camera-images{
+            max-width: 100%; 
+        }
+        .camera_caption.content{
+            background: none !important;
+            bottom: calc(50% - 200px) !important;
+            p{
+                color: #5e7d5e;
+                font: 400 15px/28px $roboto;
+                max-width: 445px;
+                padding-bottom: 37px;
+            }
+            h2{
+                color: #fff;
+                font: 400 60px/70px $rajdhani;
+                text-transform: uppercase;
+                background: $bac;
+                margin-bottom: 10px;
+                display: inline-block;
+                padding: 0 20px;
+            }
+            a{
+                color: $h1;
+                font: 400 15px/60px $roboto;
+                text-transform: uppercase;
+                text-align: center;
+                width: 240px;
+                display:block;
+                border: 1px solid $h1;
+                margin-top: 40px;
+                &:hover, &:focus{
+                    color: #fff;
+                    background: $bac;
+                    border: 1px solid $bac;
+                }
+            }
+        }
+    }
+}
+.camera_caption > div{
+    background: none;
+}
+.camera_bar{
+    top: -2px !important;
+}
+
+/* Banner-area */
+.banner-area{
+    background: url("../img/banner.jpg") no-repeat;  
+    background-size:cover;
+    position: relative;
+    background-position:center;
+    z-index: 2;
+    &:before{
+        content: "";
+        position: absolute; 
+        background-color: rgba(0, 0, 0, .35);  
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    h2{
+        font: 600 35px $rajdhani;
+        color: #fff;
+        padding: 82px 0 80px 0;
+        text-align: center;
+    }
+}

@@ -1,0 +1,80 @@
+.affordable-price-area{
+    padding: 110px 0 90px 0;
+    .pricing-table{
+        text-align: center;
+        padding-top: 70px;
+        .Basic{ 
+            padding: 52px 0 60px 0;
+            @include transition;
+            cursor: pointer; 
+            position: relative;
+            z-index: 2;
+            margin-bottom: 30px;
+            &:before{
+                content: "";
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                bottom: 0;
+                left: 15px;
+                right: 15px;
+                background: $bac; 
+                transform: scaleX(0); 
+                transform-origin: 50%; 
+                transition-property: transform; 
+                @include transition; 
+            }
+            h3{
+                color: $h1;
+                font: 500 24px $roboto;
+                text-transform: uppercase;
+                @include transition; 
+            }
+            h1{
+                color: $h1;
+                font: 400 72px $roboto;
+                @include transition; 
+                padding-top: 7px;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                li{
+                    list-style: none;
+                    @include transition; 
+                    color: $p;
+                    font: 400 14px $roboto;
+                    padding-bottom: 20px;
+                }
+            }
+            a{
+                color: #fff;
+                background: $bac;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                font: 400 15px/40px $roboto;
+                width: 180px;
+                display: inline-block;
+            }
+            &:hover, &:focus, &.active{
+                &:before{ 
+                    transform: scaleX(1);
+                }
+                h3, h1, li{
+                    color: #fff;
+                }
+                a{
+                    background: #fff;
+                    color: $bac;
+                }
+            }
+        }
+    }
+}
+
+/* affordable-price-area-2 */
+.affordable-price-area-2 {
+    background: #ebf2f5;
+}

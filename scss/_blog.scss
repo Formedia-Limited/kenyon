@@ -1,0 +1,435 @@
+.blog-area{
+    .blog-all{
+        padding-top: 120px;
+        .blog-left{
+            .big-post{
+                padding-bottom: 50px;
+                img{
+                    max-width: 100%;
+                }
+                .content-area{
+                    background: #ebf2f5;
+                    padding: 37px 40px 40px 40px;
+                    h3{
+                        color: $h1;
+                        font: 500 18px $roboto;
+                        display: inline-block;
+                    }
+                    .dat{
+                        color: $p;
+                        font: 500 18px $roboto;
+                        text-transform: uppercase;
+                        text-align: center;
+                        border: 3px solid #fff;
+                        width: 76px;
+                        height: 56px;
+                        padding-top: 5px;
+                        span{
+                            font: 700 18px $roboto;
+                        }
+                    }
+                    .breadcrumb{
+                        background-color: transparent;
+                        margin: 0;
+                        padding: 0;
+                        padding-top: 20px; 
+                        li{
+                            &:before{
+                                color: $p;
+                            }
+                            a{
+                                color: $p;
+                                font: 400 italic 15px $roboto;
+                                &:hover, &:focus{
+                                    color: $bac;
+                                }
+                            }
+                        }
+                    }
+                    p{
+                        color: $p;
+                        font: 400 15px/28px $roboto; 
+                        padding-top: 30px; 
+                    }
+                    /* SLingle blog pages */
+                    .p-italic{
+                        color: $h1;
+                        font: 300 italic 15px/28px $roboto; 
+                        padding-top: 30px; 
+                        padding-left: 61px;
+                        position: relative;
+                        &:before{
+                            content: "";
+                            position: absolute;
+                            left: 38px;
+                            width: 5px;
+                            height: 70%;
+                            background: $bac;
+                            bottom: 0;
+                        }
+                    }
+                    /* End SLingle blog pages */
+                    .read-mor{
+                        color: #fff;
+                        font: 400 15px/40px $roboto;
+                        width: 180px;
+                        background: $bac;
+                        margin-top: 20px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        border: 1px solid $bac;
+                        display: block;
+                        letter-spacing: 2px;
+                        &:hover,&:focus{
+                            background-color: transparent;
+                            color: $bac;
+                        }
+                    }
+                }
+                .Share{
+                    padding-top: 80px;
+                    h3{
+                        text-transform: uppercase;
+                        font: 500 18px $roboto;
+                        color: $h1;
+                        display: inline-block;
+                        padding-right: 28px;
+                    }
+                    .socal-icon{
+                        display: inline-block;
+                        padding: 0;
+                        margin: 0;
+                        li{
+                            list-style: none;
+                            display: inline-block;
+                            padding-right: 8px;
+                            a{
+                                display: block;
+                                text-align: center;
+                                padding-top: 8px;
+                                border: 1px solid $h1;
+                                color: $p;
+                                font-size: 18px;
+                                height: 42px;
+                                width: 42px;
+                                border-radius: 50%;
+                                 &:hover,&:focus{
+                                     color: #fff;
+                                     background: $bac;
+                                     border: 1px solid $bac;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Comments{
+                    padding-top: 75px;
+                    h3{
+                        text-transform: uppercase;
+                        font: 500 18px $roboto;
+                        color: $h1;
+                        padding-right: 28px;
+                    }
+                    .media{
+                        border-bottom: 1px solid #ebf2f5;
+                        padding-top: 32px;
+                        &:last-child{
+                            border: 0;
+                        }
+                        .media-left{
+                            width: 10%;
+                            padding-right: 30px;
+                            .media-object{
+                                border-radius: 50%;
+                            }
+                        }
+                        .media-body{
+                            padding-bottom: 35px;
+                            .media-heading{
+                                color: $h1;
+                                font: 500 14px $roboto;
+                                text-transform: uppercase;
+                                padding: 0;
+                            }
+                            p{
+                                color: $p;
+                                font: 400 15px/28px $roboto;
+                                padding-top: 15px;
+                            }
+                            h5, a{
+                                display: inline-block;
+                                font: 400 15px $roboto;
+                                color: $p;
+                                padding-top: 20px;
+                            }
+                            a{
+                                padding-left: 30px;
+                                i{
+                                    padding-right: 15px;
+                                }
+                                &:hover,&:focus{
+                                    color: $bac;
+                                }
+                            }
+                        }
+                    }
+                }
+                .Leave-Comment{
+                    padding-top: 75px;
+                    h3{
+                        text-transform: uppercase;
+                        font: 500 18px $roboto;
+                        color: $h1;
+                        padding-right: 28px;
+                    }
+                    .contact_area_content{
+                        padding-top: 50px;
+                        padding-bottom: 70px;
+                        .contact-from{
+                            .form-group{
+                                padding-bottom: 2px;
+                                .form-control{
+                                    border: 0;
+                                    border-bottom: 1px solid $p;
+                                    box-shadow: none;
+                                    outline: none;
+                                    border-radius: 0;
+                                    color: $p;
+                                    font: 400 15px $roboto;
+                                    padding: 20px;
+                                    height: auto;
+                                }
+                                .form-control-2{
+                                    height: 210px;
+                                    resize: none;
+                                }
+                            }
+                        }
+                      .send-bottun{
+                            background: $bac;
+                            width: 180px;
+                            color: #fff;
+                            border: 1px solid $bac;
+                            font: 400 15px/40px $roboto;
+                            text-transform: uppercase;   
+                            margin-top: 15px;
+                             &:hover,&:focus{
+                                color: $bac;
+                                 background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+            .prvew-post{
+                border-top: 1px solid #d5dde0;
+                border-bottom: 1px solid #d5dde0;
+                margin-bottom: 80px;
+                margin-top: 30px;
+                .older-post{
+                    a{
+                        color: $p;
+                        font: 400 15px/40px $roboto;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        i{
+                            padding-right: 10px;
+                        }
+                        &:hover,&:focus{
+                            color: $bac;
+                        }
+                    }
+                }
+                .older-right{
+                    text-align: right;
+                    a{
+                        i{
+                            padding-right: 0;
+                        }
+                    }
+                }
+                 .older-num{
+                    text-align: center;
+                     ul{
+                         padding: 0;
+                         margin: 0;
+                          li{
+                            list-style: none;
+                            display: inline-block;
+                            a{
+                                  color: $p;
+                                  font: 500 15px $roboto;
+                                  padding: 10px;
+                                  display: block;
+                                  &:hover,&:focus, &.active{
+                                      color: $bac;
+                                      position: relative;
+                                      &:after{
+                                          content: "";
+                                          position: absolute;
+                                          bottom: 8px;
+                                          background: $bac;
+                                          width: 50%;
+                                          height: 1px;
+                                          left: 6px;
+                                      }
+                                 }
+                            }
+                        }
+                     } 
+                }
+            } 
+           
+        } /* end blog left */
+        
+        .blog-right{
+            padding-left: 35px;
+            .tittle-b{
+                h3{
+                    text-transform: uppercase;
+                    font: 500 18px $roboto;
+                    color: $h1;
+                    position: relative;
+                    &:after{
+                        content: "";
+                        position: absolute;
+                        height: 3px;
+                        width: 100%;
+                        left: 0;
+                        background: #ebf2f5;
+                        bottom: -15px;
+                    }
+                    &:before{
+                        content: "";
+                        position: absolute;
+                        height: 3px;
+                        width: 50px;
+                        left: 0;
+                        background:$bac;
+                        bottom: -15px;
+                        z-index: 1;
+                    }
+                }
+            }
+            .Search-Keyword{
+                .input-group{
+                    padding-top: 48px;
+                    .form-control{
+                        background: #ebf2f5;
+                        border: 0;
+                        box-shadow: none;
+                        outline: none;
+                        height: auto;
+                        padding: 16px;
+                        border-radius: 0;
+                        color: $p;
+                        font: 400 15px $roboto;
+                    }
+                    .input-group-btn{
+                        .btn-default{
+                            background: $bac;
+                            border: 0;
+                            border-radius: 0;
+                            line-height: 50px;
+                            padding: 0;
+                            width: 52px;
+                            color: #fff;        
+                            font-size: 18px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+            .Popular-Posts{
+                padding-top: 48px;
+                .media{  
+                    padding-bottom: 30px;
+                    &.first-blog{
+                        padding-top: 40px;
+                    }
+                    .media-body{
+                        padding-left: 10px;
+                        .media-heading{
+                            color: $h1;
+                            font: 500 15px $roboto;
+                            text-transform: uppercase;
+                            padding-top: 10px; 
+                        }
+                        h5{
+                            color: $p;
+                            font: 400 italic 15px $roboto;
+                            padding-top: 7px;
+                        }
+                    }
+                   &:hover, &:focus{
+                       .media-heading{
+                           color: $bac;
+                       }
+                    }
+                }
+            }
+            .Categories{
+                padding-top:17px;
+                .min-cat{
+                    padding: 0;
+                    padding-top: 50px;
+                    li{
+                        list-style: none;
+                        display: block;
+                        padding-left: 30px;
+                        position: relative;
+                        padding-bottom: 20px;
+                        &:before{
+                            content: "";
+                            position: absolute;
+                            background: $h1;
+                            height: 10px;
+                            width: 10px;
+                            left: 0;
+                            top: 4px;
+                        }
+                        a{
+                            color: $h1;
+                            font: 500 15px $roboto;
+                            span{
+                                color: $p;
+                                font: 400 15px $roboto;
+                                float: right;
+                            }
+                        }
+                    }
+                }
+            }
+            .tags{
+                padding-top: 12px;
+                .tags-btn{
+                    padding: 0;
+                    padding-top: 53px;
+                    li{
+                        list-style: none;
+                        float: left;
+                        padding-right: 10px;
+                        padding-bottom: 10px;
+                        &:nth-child(3){
+                            padding-right: 0;
+                        }  
+                        &:nth-child(9){
+                            padding-right: 0;
+                        }
+                        a{
+                            background: #ebf2f5;
+                            color: $h1;
+                            font: 400 15px $roboto;
+                            display: inline-block;
+                            padding: 12px 27px;
+                            &:hover, &:focus{
+                                background: $bac;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.beginning-present{
+    background: #ebf2f5;
+    padding: 112px 0 40px 0;
+    .tittle-journey{
+       h2{
+            color: $h1;
+            font: 600 35px $rajdhani; 
+            margin: 0 auto;
+            text-align: center;
+            span{
+                color: $bac;
+            }
+        }
+    }
+    .See-our-journey{
+        padding-top: 75px;
+       .Business{
+            .media{
+                padding-bottom: 74px;
+                .media-left{
+                    padding-right: 77px;
+                    position: relative;
+                    &:after{
+                        content: "";
+                        position: absolute;
+                        background: #d5dde0;
+                        height: 160px;
+                        width: 1px;
+                        left: 25px;
+                        top: 40px;
+                    } 
+                    h4{
+                        color: $bac;
+                        font: 600 25px $rajdhani; 
+                    }
+                }
+                .media-body{
+                    .media-heading{
+                        color: $h1;
+                        font: 500 18px $roboto;
+                        text-transform: uppercase;
+                    }
+                    p{
+                        color: $p;
+                        font: 400 15px/28px $roboto;
+                        padding-top: 20px;
+                    }
+                } 
+            }
+           &:last-child{
+               .media{
+                   .media-left{
+                       &:after{
+                           display: none;
+                       }
+                   }
+               }
+           }
+        }
+    } 
+}

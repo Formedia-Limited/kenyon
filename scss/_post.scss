@@ -1,0 +1,82 @@
+.latest-post-area{
+    padding: 110px 0 130px 0;
+    .post-min-area{
+        padding-top: 70px;
+        .min-post{ 
+            img{
+                max-width: 100%;
+            }
+            .post-taittle{
+                color: $h1;
+                font: 500 18px $roboto;
+                text-transform: uppercase;
+                padding-top: 37px;
+                display: block;
+                &:hover, &:focus{
+                    color: $bac; 
+                } 
+            }
+            h5{
+                color: $p;
+                font: 400 15px$roboto;
+                padding-top: 12px;
+                a{ 
+                    color: $p;
+                    &:hover{
+                        color: $bac;
+                    }
+                }
+            }
+            p{
+                color: $p;
+                font: 400 15px/28px $roboto;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .red-more{
+                color: $p;
+                font: 400 15px/25px $roboto;
+                border-bottom: 1px solid $p;
+                display: inline-block;
+                 &:hover, &:focus{
+                     color: $bac;
+                     border-bottom: 1px solid $bac;
+                }
+            }
+        }
+        .sub-post{
+            .media{
+                padding-bottom: 30px;
+                .media-left.media-middle{
+                    padding-right: 25px;
+                }
+                .media-body{
+                    .media-heading{
+                        color: $h1;
+                        font: 500 18px $roboto;
+                        text-transform: uppercase;
+                        padding-top: 15px;
+                        display: block; 
+                    }
+
+                    h5{
+                        color: $p;
+                        font: 400 15px$roboto;
+                        padding-top: 12px;
+                        a{ 
+                            color: $p;
+                            &:hover{
+                                color: $bac;
+                            }
+                        }
+                    }
+                }
+                 &:hover, &:focus{
+                     .media-heading{
+                         color: $bac; 
+                     }
+                }
+            }
+        }
+    }
+}
