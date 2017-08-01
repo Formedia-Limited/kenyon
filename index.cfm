@@ -492,7 +492,7 @@
     <!-- Bootstrap JS -->
     <script src="js/bootstrap.min.js"></script>  
     <!-- Camera JS -->
-    <script src="vendors/camera/camera.min.js"></script>  
+    <script src="vendors/camera/camera.js"></script>  
     <script src="vendors/camera/jquery.easing.1.3.js"></script>  
     <script src="vendors/camera/jquery.mobile.customized.min.js"></script>  
     <!-- Counter JS -->
